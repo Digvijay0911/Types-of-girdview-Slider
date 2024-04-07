@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:straggered_gridview_flutter/view/slider.dart';
 import 'package:straggered_gridview_flutter/view/straggered_gridview_example.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const StraggeredGridview(),
+      home: const SliderScreen(),
     );
   }
 }
